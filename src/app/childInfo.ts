@@ -3,5 +3,6 @@ childName:string;
 childAge:number;
 childClass:number;
 childTotalFee:number;
-childFeePaid:number
+childFeePaid:number;
+childPhoto:string;
 }

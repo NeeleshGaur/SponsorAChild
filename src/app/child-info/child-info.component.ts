@@ -12,28 +12,24 @@ export class ChildInfoComponent implements OnInit {
 
   ngOnInit() {
   }
-  
-child1 : childInfoClass={
-childName:'Mukes',
-childAge:15,
-childClass:10,
-childTotalFee:12000,
-childFeePaid:2000
-}; 
+
+
 public childArray= [
 {
 childName:'Mukesh',
 childAge:15,
 childClass:10,
 childTotalFee:12000,
-childFeePaid:2000
+childFeePaid:2000,
+childPhoto:'assets/images/1.JPG'
 },
 {
 childName:'Aslam',
 childAge:10,
 childClass:5,
 childTotalFee:12000,
-childFeePaid:10000
+childFeePaid:10000,
+childPhoto:'assets/images/2.JPG'
 }
 ];
 };
